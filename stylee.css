@@ -1,0 +1,24 @@
+html a{
+    text-decoration: none;
+    color: #242424;
+    font-style:unset;
+}
+
+html a:hover{
+    text-decoration: underline;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #D1D1D6;
+    text-align: center;
+}
+
+.no_dot{
+
+    list-style-type: none;
+    border: 10px solid #60100B;
+    position: relative;
+  }
