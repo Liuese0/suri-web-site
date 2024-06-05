@@ -7,6 +7,7 @@
         <title>수리학당-회원가입 페이지</title>
         <link rel="stylesheet" href="signup.css">
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <script defer src="signup.js"></script>
     </head>
 
     <body>
@@ -15,25 +16,34 @@
         </button>
 
         <div class = "wrapper">
-            <form action="">
+            <form id="form" action="">
                 <img src="R2D2icon.png" width="100" height="100">
                 <h1>수리학당 안내 도우미</h1>
                 <h2>SignUp</h2>
                 <div class="input-box">
-                    <input type="text" placeholder="Username" required>
+                    <input id="username" type="text" placeholder="Username" required>
                     <i class='bx bxs-user'></i>
+                    <div class="error"></div>
                 </div>
                 <div class="input-box">
-                    <input type="password" placeholder="password" required>
+                    <input id="password" type="password" placeholder="password" required>
                     <i class='bx bxs-lock-alt' ></i>
+                    <div class="error"></div>
                 </div>
                 <div class="input-box">
-                    <input type="email" placeholder="email" required>
+                    <input id="password2" type="password" placeholder="password2" required>
+                    <i class='bx bxs-lock-alt' ></i>
+                    <div class="error"></div>
+                </div>
+                <div class="input-box">
+                    <input id="email" type="email" placeholder="email" required>
                     <i class='bx bxs-envelope'></i>
+                    <div class="error"></div>
                 </div>
                 <div class="input-box">
-                    <input type="admin key" placeholder="admin key">
+                    <input id="admin key" type="admin key" placeholder="admin key">
                     <i class='bx bxs-crown'></i>
+                    <div class="error"></div>
                 </div>
 
                 <button type="submit" class="btn">SignUp</button>
