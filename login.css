@@ -108,3 +108,10 @@ body{
 .register-link p a:hover{
     text-decoration: underline;
 }
+
+body .btn2{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    padding: 20px;
+}
