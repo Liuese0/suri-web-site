@@ -18,6 +18,7 @@ body{
     text-align: center;
 }
 
+
 .wrapper .btn{
     height: 45px;
     background: #fff;
@@ -26,14 +27,13 @@ body{
     border-radius: 40px;
     cursor: pointer;
     font-size: 16px;
-    font-weight: 600;
-    position: relative;
-    float: right;
+    font-weight: 600;;
+    float:right;
+
 }
 
-.no_dot{
-
-    list-style-type: none;
-    border: 10px solid #60100B;
-    position: relative;
+.main-link{
+    border: 5px solid #60100B;
+    position: static;
+    font-weight: 600;
   }
